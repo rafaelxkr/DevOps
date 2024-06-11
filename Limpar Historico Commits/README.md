@@ -1,5 +1,6 @@
 
 # Removendo arquivos grandes do histórico do Git
+Video re referência https://www.youtube.com/watch?v=n6mzVlcdgos
 
 ## Baixe o BFG
 link: `https://rtyley.github.io/bfg-repo-cleaner/#examples`
@@ -15,3 +16,5 @@ Onde `C:\teste\bfg-1.14.0.jar` é o caminho do programa e `C:\Repos\Projeto_01` 
 
 ## Limpar os Arquivos
 `git reflog expire --expire=now --all && git gc --prune=now --aggressive`
+
+
